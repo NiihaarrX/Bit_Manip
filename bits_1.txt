@@ -1,0 +1,18 @@
+
+Left Shift:
+  Shifting bits to the left by n positions multiplies the number by 2^n.
+  Example: 2 << 1 = 4 (binary: 10 shifted left by 1 becomes 100)
+  Example: 2 << 3 = 16 (binary: 10 shifted left by 3 becomes 10000)
+
+Right Shift:
+  Shifting bits to the right by n positions divides the number by 2^n (integer division).
+  Example: 3 >> 1 = 1 (binary: 11 shifted right by 1 becomes 1)
+  Example: 5 >> 1 = 2 (binary: 101 shifted right by 1 becomes 10)
+
+**Power of 2 Shortcut:**
+  Left shifting 1 by n positions results in 2^n.
+  Example: 1 << 5 = 32 (2^5 = 32)
+
+Signed Integer and Bitwise Shifts:
+  Signed integers use 1 bit for the sign.
+  Maximum positive value: (1 << 31) - 1, not (1 << 32) - 1.
